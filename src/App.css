@@ -6,13 +6,18 @@
   opacity: 0.5;
 }
 
+.c3-tooltip-container {
+  background: lightgray;
+  padding: 4px;
+  border-radius: 2px;
+}
+
 .chart .c3-legend-item .c3-legend-item-People-who-like-cookies > text {
   color: red;
 }
 
 .c3-legend-item {
   padding: 10px;
-  color: red;
   background-color: blueviolet;
 }
 
