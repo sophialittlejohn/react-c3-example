@@ -30,7 +30,7 @@ const donut = {
 };
 
 const legend = {
-  position: "right"
+  hide: true
 };
 
 const tooltip = {
@@ -39,4 +39,4 @@ const tooltip = {
   }
 };
 
-export const styles = { data, donut, legend, tooltip, color };
+export const styles = { data, donut, legend, tooltip, color, columns };

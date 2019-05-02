@@ -1,5 +1,7 @@
-.random {
-  color: blue;
+.chart-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .c3-defocused {
@@ -12,15 +14,23 @@
   border-radius: 2px;
 }
 
-.chart .c3-legend-item .c3-legend-item-People-who-like-cookies > text {
-  color: red;
+.chart {
+  height: 100%;
+  width: 100%;
+  max-width: 20%;
 }
 
 .c3-legend-item {
   padding: 10px;
-  background-color: blueviolet;
 }
 
-.c3-legend-item .c3-legend-item-People-who-like-cookies > text {
-  color: red;
+.custom-legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.custom-legend-tile {
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
 }
