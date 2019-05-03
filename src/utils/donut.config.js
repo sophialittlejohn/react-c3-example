@@ -39,4 +39,4 @@ const tooltip = {
   }
 };
 
-export const styles = { data, donut, legend, tooltip, color, columns };
+export const config = { data, donut, legend, tooltip, color, columns };
